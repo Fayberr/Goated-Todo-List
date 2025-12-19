@@ -36,7 +36,7 @@ todoForm.addEventListener("submit", async (event) => {
     todoListContent.push(todoListEntry)
     updateTodoList(todoListEntry)
     todoFormInput.value = ""
-
+ 
     console.log(`New Todo List: ${JSON.stringify(todoListContent)}`)
     console.log("--------------------")
     
